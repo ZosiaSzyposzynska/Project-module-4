@@ -36,11 +36,13 @@ height: 100%;
     position: absolute;
     left: 60%;
     color: #FFFAF4;
+   
 
 }
 
 .navbar ul li a {
     color: #FFFAF4;
+    
 }
 
 .navbar ul li a:hover {
@@ -74,7 +76,7 @@ height: 100%;
 
 .splash .page-title {
     color: #FFFAF4;
-    font-size: 60px;
+    font-size: 50px;
     font-style: italic;
     position: absolute;
     text-align: center;
@@ -83,6 +85,7 @@ height: 100%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-family: $font-text;
    
     
 }
@@ -95,14 +98,15 @@ height: 100%;
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bolder;
+    font-family: $font-text;
     
 }
 
 .splash a{
 position: absolute;
-top: 75%;
+top: 70%;
 left: 50%;
 transform: translate(-50%, -50%);
 font-size: 22px;
@@ -111,7 +115,15 @@ padding: 10px;
 width: 200px;
 background-color: #8b1a07;
 color: #ffffff;
+font-family: $font-text;
 }
+
+.splash a:hover {
+    color: black;
+    font-weight: bolder;
+    font-style: italic;
+}
+
 
 /*Services*/
 
@@ -124,6 +136,7 @@ color: #ffffff;
     font-size: 50px;
     font-weight: bolder;
     color: $color-main;
+    font-family: $font-text;
 }
 
 .services-subtitle {
@@ -132,6 +145,7 @@ color: #ffffff;
     font-weight: lighter;
     text-shadow: 0 0 0.2em #8b1a07;
     color:#65647C;
+    font-family: $font-text;
 }
 
 .col-icon i {
@@ -140,6 +154,8 @@ color: #ffffff;
 
 .title-col {
     font-size: 25px;
+    font-family: $font-text;
+    font-weight: bolder;
 }
 
 .services p {
@@ -162,6 +178,7 @@ color: #ffffff;
     font-size: 50px;
     font-weight: bolder;
     color: $color-main;
+    font-family: $font-text;
 }
 
 .portfolio-subtitle {
@@ -170,6 +187,7 @@ color: #ffffff;
     font-weight: lighter;
     text-shadow: 0 0 0.2em #8b1a07;
     color:#65647C;
+    font-family: $font-text;
 }
 
 .card img {
@@ -187,4 +205,25 @@ color: #ffffff;
     font-weight: bolder;
     color: $color-main;
     font-family: $font-text;
+}
+
+/*Footer*/
+
+.footer-title {
+    font-size: 20px;
+    font-family: $font-text;
+    font-weight: lighter;
+}
+
+.footer ul a{
+    color:#8b1a07;
+    font-size: 16px;
+}
+
+.footer ul a:hover {
+    color: black;
+}
+
+.footer ul li i {
+    font-size: 20px;
 }
