@@ -250,7 +250,7 @@ font-family: $font-text;
     font-size: 28px;
     font-style: italic;
     position: absolute;
-    top:540px;
+    top:440px;
     text-align: center;
     font-weight: lighter;
     
@@ -264,7 +264,7 @@ font-family: $font-text;
     font-size: 25px;
     font-style: italic;
     position: absolute;
-    top: 620px;
+    top: 500px;
     text-align: center;
     font-weight: lighter;
     
@@ -273,7 +273,15 @@ font-family: $font-text;
     
 }
 
+.splash-inner a {
+    top: 550px;
+    position: absolute;
+}
 
 
+.box {
+    background-position: 50%;
+    background-size: cover;
+}
 }
 
